@@ -18,6 +18,7 @@
 				<center>
 					<form action="Login" method="post">
 						<table>
+							<tr><td><%=request.getAttribute("authentication")!=null? request.getAttribute("authentication"):"" %></td></tr>
 							<tr>
 								<td><label>Username</label></td>
 							</tr>

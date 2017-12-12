@@ -1,4 +1,4 @@
-package jobportal;
+package jobportal.controller;
 
 import java.io.IOException;
 
@@ -9,16 +9,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class Registration
+ * Servlet implementation class Login
  */
-@WebServlet("/Registration")
-public class Registration extends HttpServlet {
+@WebServlet("/Login")
+public class Login extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		
+		req.getRequestDispatcher("profile.jsp").forward(req, resp);
 	}
 
 }
