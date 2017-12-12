@@ -1,0 +1,229 @@
+@charset "UTF-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+	box-sizing: content-box;
+	background-color:#F3B824;
+}
+
+.index-wrapper {
+	background-image: url("../images/back.png");
+	border-radius: 5px;
+}
+
+#wrapper {
+	width: 96%;
+	padding: 1%;
+	margin: 1%;
+	min-height: 100%;
+	position: relative;
+}
+
+#wrapper #header {
+	padding-bottom: 3%;
+}
+
+#wrapper #content {
+	width:100%;	
+	padding-bottom: 15%;
+}
+
+#wrapper #footer {
+	position: absolute;
+	width: 96%;
+	bottom: 0%;
+	height: 15%;
+}
+
+#header .logo {
+	float: left;
+	width: 40%;
+}
+
+#header .logo h1 {
+	color: white;
+}
+
+#header .navigation {
+	float: right;
+	width: 58%;
+}
+
+#header .navigation .menu {
+	
+}
+
+#header .navigation .menu li {
+	display: inline-block;
+	padding-left: 8px;
+	margin-left: 8px;
+	padding-bottom:
+	float: left;
+	width: 18%;
+	position: relative;
+}
+
+#header .navigation .menu li a {
+	color: white;
+	font-size: larger;
+	font-weight: 700;
+}
+
+#header .navigation .menu li a:hover {
+	background-color:#FFC300;
+	padding:6%;
+	border-radius:5px;
+	font-size:x-large;
+}
+
+.submenu {
+	position: absolute;
+	width: 15%;
+	display: none;
+	float:right;
+}
+
+ul.submenu li
+{
+ display:inline-block;
+}
+
+ul.submenu li a
+{
+  display:inline-block;
+  padding-top:100%;
+}
+ul.submenu li a:hover
+{
+  background-color:#FFC300;
+	padding:80%;
+	border-radius:5px;
+	font-size:large;
+}
+
+
+#header .navigation .menu li:hover ul {
+	display: block;
+}
+
+#header:after {
+	content: "";
+	clear: both;
+	display: block;
+	padding-bottom:3%;
+}
+
+#content .banner 
+{
+	margin-left:10%;
+	margin-right:10%;
+	padding-left:2%;
+	padding-right:2%;
+	border-radius:5px;
+	
+}
+#content .banner img.banner-image
+{
+	height:250px;
+	width:100%;
+	border-radius:5px;
+}
+
+
+
+#content #advertise,#content #login,#content #register
+{
+	padding:1%;
+	margin:1%;
+	width:45%;
+	display:inline-block;
+}
+#login form,#register form
+{
+	padding:2%;
+	margin:2%;
+}
+
+#login table tr td,#register table tr td
+{
+	padding:3%;
+}
+
+#login form label,#register form label
+{
+	font-size:larger;
+	color:#C70039;
+	font-weight:700;
+}
+#login input
+{
+	height:10%;
+	width:90%;
+	font-size:large;
+	padding:2%;
+	border-radius:5px;
+}
+
+#register input,#register select
+{
+	height:10%;
+	width:150%;
+	min-width:60px;
+	font-size:large;
+	padding:2%;
+	border-radius:5px;
+}
+#register select
+{
+	height:10%;
+	width:155%;
+	min-width:60px;
+	font-size:large;
+	padding:2%;
+	border-radius:5px;
+	background-color:white;
+}
+
+#register label
+{
+	display:none;
+}
+
+#login input[type=submit],#register input[type="submit"]
+{
+  width:60%;	
+}
+
+
+#content #advertise img
+{
+	margin-bottom:2%;
+	width:96%;
+	height:300px;
+	min-height:50px;
+	
+	border-radius:5px;
+	
+}
+
+input[type="radio"]{
+    -webkit-appearance: radio;
+}
+
+
+.errors
+{
+	color:red;
+	text-align: center;
+	font-family: sans-serif;
+	padding-top:10px;
+}
+
+
