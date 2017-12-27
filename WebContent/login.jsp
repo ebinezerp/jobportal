@@ -30,7 +30,7 @@
 								<td><label>Password</label></td>
 							</tr>
 							<tr>
-								<td><input type="text" name="password"
+								<td><input type="password" name="password"
 									placeholder="Password" required="true" /></td>
 							</tr>
 							<tr>

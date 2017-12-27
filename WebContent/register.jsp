@@ -46,7 +46,9 @@
 						<tr>
 							<td><input type="email" name="email" placeholder="Email"
 								required="true" />
-								<div class="errors"><%=request.getAttribute("email") != null ? request.getAttribute("email") : ""%></div></td>
+								<div class="errors"><%=request.getAttribute("email") != null ? request.getAttribute("email") : ""%></div>
+								<div class="errors"><%=request.getAttribute("emailExistance") != null ? request.getAttribute("emailExistance") : ""%></div>
+							</td>
 						</tr>
 						<tr>
 							<td><label>Mobile</label></td>
@@ -70,7 +72,9 @@
 						<tr>
 							<td><input type="text" name="username"
 								placeholder="Username">
-								<div><%=request.getAttribute("username") != null ? request.getAttribute("username") : ""%></div></td>
+								<div><%=request.getAttribute("username") != null ? request.getAttribute("username") : ""%></div>
+							<div class="errors"><%=request.getAttribute("usernameExistance") != null ? request.getAttribute("usernameExistance") : ""%></div>	
+							</td>
 						</tr>
 						<tr>
 							<td><label>Password</label></td>

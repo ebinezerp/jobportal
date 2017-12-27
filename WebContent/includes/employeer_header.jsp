@@ -4,15 +4,15 @@
 			</div>
 			<div class="navigation">
 				<ul class="menu">
-					<li><a href="<%=request.getContextPath()%>/">Home</a></li>
-					<li><a href="">About Us</a></li>
-					<li><a href="">Services</a>
+					<li><a href="../employeer/profile.jsp">Profile</a></li>
+					<li><a href="">Requests</a></li>
+					<li><a href="">Jobs</a>
 				<!-- 	<ul class="submenu">
 						<li><a href="">Loan</a></li>
 						<li><a href="">Deposit</a></li>
 					</ul> -->
 					</li>
-					<li><a href="./login.jsp">Login</a></li>
+					<li><a href="Logout">Logout</a></li>
 				</ul>
 			</div>
 		</div>
